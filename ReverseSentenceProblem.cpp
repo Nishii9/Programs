@@ -14,7 +14,6 @@ int main(){
     for (auto i : s)
     {
         if(i=='.'){
-            // if(vs.size()<=)
             vs.push_back(temp);
             temp="";
             for (int i = vs.size()-skipNumber-1; i >= 0; i--)
